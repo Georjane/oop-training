@@ -85,3 +85,9 @@ class App
     end
   end
 end
+
+def main
+  
+end
+
+main()
