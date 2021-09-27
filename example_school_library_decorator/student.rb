@@ -1,3 +1,4 @@
+# rubocop:disable Style/OptionalBooleanParameter
 require './person'
 
 class Student < Person
@@ -6,7 +7,13 @@ class Student < Person
     @classroom = classroom
   end
 
+  def classroom=(classroom)
+    @classroom = classroom
+    classroom.students.push(self) unless classroom.students.include?(self)
+  end
+
   def play_hooky
     "¯\(ツ)/¯"
   end
 end
+# rubocop:enable Style/OptionalBooleanParameter
