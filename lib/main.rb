@@ -1,7 +1,7 @@
-require './book.rb'
-require './student.rb'
-require './teacher.rb'
-require './rental.rb'
+require './book'
+require './student'
+require './teacher'
+require './rental'
 
 class App
   def initialize
