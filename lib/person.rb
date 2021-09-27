@@ -28,9 +28,9 @@ class Person
     @age >= 18
   end
 
-  def add_rental(book, date)
-    Rental.new(date, book, self)
-  end
+  # def add_rental(book, date)
+  #   Rental.new(date, book, self)
+  # end
 end
 
 # rubocop:enable Style/OptionalBooleanParameter, Naming/PredicateName
