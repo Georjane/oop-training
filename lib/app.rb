@@ -1,9 +1,9 @@
+require 'date'
 require './book'
 require './student'
 require './teacher'
 require './rental'
 require './format'
-require 'date'
 
 class App
   include Format
