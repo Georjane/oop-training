@@ -1,4 +1,3 @@
-@@ -1,7 +1,13 @@
 class Classroom
   attr_accessor :label
   attr_reader :students
