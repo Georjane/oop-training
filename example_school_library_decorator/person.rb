@@ -1,3 +1,4 @@
+# rubocop:disable Style/OptionalBooleanParameter, Naming/PredicateName
 require './corrector'
 
 class Person
@@ -26,3 +27,4 @@ class Person
     @age >= 18
   end
 end
+# rubocop:enable Style/OptionalBooleanParameter, Naming/PredicateName
